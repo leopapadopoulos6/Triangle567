@@ -7,6 +7,9 @@ The primary goal of this file is to demonstrate a simple python program to class
 
 @author: jrr
 @author: rk
+
+I kept this^ the same as the original but:
+@realauthor: Leo Papadopoulos
 """
 
 def classifyTriangle(a,b,c):
@@ -32,11 +35,7 @@ def classifyTriangle(a,b,c):
     # Python's "isinstance(object,type) returns True if the object is of the specified type
     if not(isinstance(a,int) or isinstance(b,int) or isinstance(c,int)):
         return 'InvalidInput';
-    
-    # require that the input values be >= 0 and <= 200
-    if a <= 0 or b <= 0 or c <= 0:
-      return 'InvalidInput'
-    elif a > 200 or b > 200 or c > 200:
+     or c > 200:
        return 'InvalidInput'
     
 =======
@@ -50,7 +49,11 @@ def classifyTriangle(a,b,c):
     # verify that all 3 inputs are integers  
     # Python's "isinstance(object,type) returns True if the object is of the specified type
     if not(isinstance(a,int) and isinstance(b,int) and isinstance(c,int)):
-        return 'InvalidInput';
+        return 'InvalidInpu
+    # require that the input values be >= 0 and <= 200
+    if a <= 0 or b <= 0 or c <= 0:
+      return 'InvalidInput'
+    elif a > 200 or b > 200t';
       
 >>>>>>> 0817963b30b3b93510d28c4dd77ca9390729cb20
     # This information was not in the requirements spec but 
