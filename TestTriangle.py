@@ -25,7 +25,7 @@ class TestTriangles(unittest.TestCase):
 
     def testRightTriangleB(self): 
         self.assertEqual(classifyTriangle(5,3,4),'Right','5,3,4 is a Right triangle')
-<<<<<<< HEAD
+
        
     def testEquilateralTriangles(self): 
         self.assertEqual(classifyTriangle(1,1,1),'Equilateral','1,1,1 should be equilateral')
@@ -50,11 +50,9 @@ class TestTriangles(unittest.TestCase):
     
     def testDecTriangles(self):
         self.assertEqual(classifyTriangle(0.3, 0.4, 0.5), 'InvalidInput', 'No floats allowed')
-=======
         
     def testEquilateralTriangles(self): 
         self.assertEqual(classifyTriangle(1,1,1),'Equilateral','1,1,1 should be equilateral')
->>>>>>> 0817963b30b3b93510d28c4dd77ca9390729cb20
 
 if __name__ == '__main__':
     print('Running unit tests')
